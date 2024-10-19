@@ -1,0 +1,43 @@
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .mySwiperLoginRegister .swiper-slide {
+        background-color: #f3f4f6;
+    }
+    
+    .mySwiperLoginRegister .swiper-button-next,
+    .mySwiperLoginRegister .swiper-button-prev {
+        left: 100px;
+        top: 660px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        color: #ffffff;
+    }
+    
+    .mySwiperLoginRegister .swiper-button-prev {
+        left: 20px;
+        top: 660px;
+    }
+    
+    .mySwiperLoginRegister .swiper-button-next::after,
+    .mySwiperLoginRegister .swiper-button-prev::after {
+        font-size: 20px;
+    }
+    
+    .mySwiperLoginRegister .swiper-pagination {
+        display: none;
+    }
+    
+    .react-datepicker-wrapper {
+        width: 100% !important;
+    }
+    
+    @media screen and (max-width: 458px) {
+        .imgFooter {
+            height: 150px !important;
+        }
+    }
